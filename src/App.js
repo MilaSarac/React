@@ -15,13 +15,13 @@ function App() {
       <CartProvider>
         <Router>
           <Navbar />
-          <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/menu' exact element={<Menu />} />
-            <Route path='/about' exact element={<About />} />
-            <Route path='/contact' exact element={<Kontakt />} />
-            <Route path='/cart' exact element={<Cart />} />
-          </Routes>
+            <Routes>
+              <Route path='/' exact element={<Home />} />
+              <Route path='/menu' exact element={<Menu />} />
+              <Route path='/about' exact element={<About />} />
+              <Route path='/contact' exact element={<Kontakt />} />
+              <Route path='/cart' exact element={<Cart />} />
+            </Routes>
           <Footer />
         </Router>
       </CartProvider>
